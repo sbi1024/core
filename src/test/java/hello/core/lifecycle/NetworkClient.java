@@ -29,7 +29,9 @@ public class NetworkClient {
 
     @PostConstruct
     public void init() {
-        System.out.println("NetworkClient.init");
+        System.out.println("NetworkCli" +
+                "" +
+                "ent.init");
         connect();
         call("초기화 연결 메세지");
     }
